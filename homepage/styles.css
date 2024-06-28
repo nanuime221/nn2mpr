@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-image: url('bgr.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section {
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #e6f2ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.love-animation {
+    font-size: 50px;
+    color: red;
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#yesButton {
+    background-color: green;
+    color: white;
+}
+
+#noButton {
+    background-color: red;
+    color: white;
+}
+
+#loveMessage {
+    display: none;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.center-text {
+    text-align: center;
+}
